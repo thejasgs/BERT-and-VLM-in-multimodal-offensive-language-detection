@@ -118,8 +118,15 @@ Effective hyperparameter search space:
 ### Requirements
 
 ```bash
-pip install torch transformers peft optuna datasets scikit-learn
-pip install pandas numpy matplotlib seaborn colorama tqdm
+# Core
+pip install torch transformers peft optuna datasets scikit-learn scipy
+pip install pandas numpy matplotlib Pillow colorama tqdm
+
+# Image feature extraction only
+pip install tensorflow
+
+# VLM zero-shot inference only
+pip install lmstudio
 ```
 
 ### LM Studio (for VLM experiments)
