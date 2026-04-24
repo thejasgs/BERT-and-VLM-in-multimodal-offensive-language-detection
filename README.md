@@ -16,6 +16,15 @@ We investigate multimodal hate speech detection by combining BERT-variant text e
 
 Datasets are not included in this repository. Download them from the links above and place them under a `*_Dataset/` directory at the project root.
 
+### HarMemeC Preprocessing
+
+HarMemeC provides three separate harmfulness indicator columns (`not harmful`, `somewhat harmful`, `very harmful`) rather than a single label. We convert these to a binary label as follows:
+
+- **Label 0 (not harmful):** `not harmful == 1`
+- **Label 1 (harmful):** `somewhat harmful == 1` or `very harmful == 1`
+
+The preprocessing script is located at `BERT_Evaluation_Examples/preprocess.ipynb`. It outputs `train_val_bin.csv` and `test_bin.csv`, which are the files consumed by the HarMemeC training notebooks.
+
 ---
 
 ## Repository Structure
