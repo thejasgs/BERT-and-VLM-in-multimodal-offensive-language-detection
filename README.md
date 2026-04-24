@@ -1,4 +1,4 @@
-# BERT and VLM in Multimodal Offensive Language Detection
+# BERT and Local Vision Language Models in Hate Speech Detection on Small Multimodal Datasets
 
 This repository contains the code for the paper **"BERT and Local Vision Language Models in Hate Speech Detection on Small Multimodal Datasets"** (IEEE Access, Submission 2, 2026).
 
@@ -125,6 +125,28 @@ pip install pandas numpy matplotlib seaborn colorama tqdm
 ### LM Studio (for VLM experiments)
 
 Download [LM Studio](https://lmstudio.ai/) and load the desired model locally. The notebooks expect the LM Studio local server running at `http://localhost:1234`.
+
+### List of Vision Language Models Used
+
+| Model | Size | Storage (GB) |
+|---|---|---|
+| [Gemma3 4B](https://lmstudio.ai/models/google/gemma-3-4b) | 4B + 417M | 3.34 |
+| [Gemma3 12B](https://lmstudio.ai/models/google/gemma-3-12b) | 12B + 417M | 8.15 |
+| [Gemma3 27B](https://lmstudio.ai/models/google/gemma-3-27b) | 27B + 417M | 16.43 |
+| [Gemma4 E2B](https://lmstudio.ai/models/google/gemma-4-e2b) | 5B (E 2B) | 4.41 |
+| [Gemma4 E4B](https://lmstudio.ai/models/google/gemma-4-e4b) | 7.9B (E 4B) | 6.33 |
+| [Gemma4 26B-A4B](https://huggingface.co/unsloth/gemma-4-26B-A4B-it-GGUF) | 25.2B (A 3.8B) | 15.71 |
+| [LFM2 450M](https://huggingface.co/bartowski/LiquidAI_LFM2-VL-450M-GGUF) | 350M + 86M | 0.42 |
+| [LFM2 1.6B](https://huggingface.co/lmstudio-community/LFM2-VL-1.6B-GGUF) | 1.2B + 400M | 1.56 |
+| [LFM2 3B](https://huggingface.co/LiquidAI/LFM2-VL-3B) | 2.6B + 400M | 2.34 |
+| [Ministral3 3B](https://lmstudio.ai/models/mistralai/ministral-3-3b) | 3.4B + 400M | 2.99 |
+| [Magistral Small 2509](https://lmstudio.ai/models/mistralai/magistral-small-2509#magistral-small-12) | 24B | 15.21 |
+| [Qwen2.5 7B](https://lmstudio.ai/models/qwen/qwen2.5-vl-7b) | ~8B* | 6.04 |
+| [Qwen3 4B](https://lmstudio.ai/models/qwen/qwen3-vl-4b) | 4.44B | 3.33 |
+| [Qwen3 8B](https://lmstudio.ai/models/qwen/qwen3-vl-8b) | 8.77B | 6.19 |
+| [Qwen3 30B](https://lmstudio.ai/models/qwen/qwen3-vl-30b) | 31.1B | 19.64 |
+
+*Qwen2.5 7B parameter size is closer to 8B when the vision encoder is included.
 
 ### Image Feature Extraction
 
