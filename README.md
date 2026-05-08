@@ -2,6 +2,8 @@
 
 This repository contains the code for the paper **"BERT and Local Vision Language Models in Hate Speech Detection on Small Multimodal Datasets"** (IEEE Access, 2026). DOI: 10.1109/ACCESS.2026.3691270
 
+_N. P. Solagratia and G. S. Thejas, "BERT and Local Vision Language Models in Hate Speech Detection on Small Multimodal Datasets," in IEEE Access, doi: 10.1109/ACCESS.2026.3691270_
+
 We investigate multimodal hate speech detection by combining BERT-variant text encoders with EfficientNetV2L image features, and separately evaluating local Vision Language Models (VLMs) via zero-shot inference using LM Studio. Experiments are conducted across three benchmark datasets.
 
 ---
