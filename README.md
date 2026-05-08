@@ -1,6 +1,6 @@
 # BERT and Local Vision Language Models in Hate Speech Detection on Small Multimodal Datasets
 
-This repository contains the code for the paper **"BERT and Local Vision Language Models in Hate Speech Detection on Small Multimodal Datasets"** (IEEE Access, In-press, 2026).
+This repository contains the code for the paper **"BERT and Local Vision Language Models in Hate Speech Detection on Small Multimodal Datasets"** (IEEE Access, 2026). DOI: 10.1109/ACCESS.2026.3691270
 
 We investigate multimodal hate speech detection by combining BERT-variant text encoders with EfficientNetV2L image features, and separately evaluating local Vision Language Models (VLMs) via zero-shot inference using LM Studio. Experiments are conducted across three benchmark datasets.
 
