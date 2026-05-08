@@ -190,7 +190,7 @@ If this repository is useful for your research, please cite our paper:
   number={},
   pages={1-1},
   keywords={Modeling;Bit error rate;Hate speech;Training;Accuracy;Machine learning;Labeling;LoRa;Social networking (online);Conferences;BERT;hate speech detection;low-resource learning;multimodal learning;offensive content detection;vision-language models},
-  doi={10.1109/ACCESS.2026.3691270}}=
+  doi={10.1109/ACCESS.2026.3691270}}
 ```
 ---
 
