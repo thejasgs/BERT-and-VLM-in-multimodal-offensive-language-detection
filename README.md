@@ -179,6 +179,8 @@ Results are saved per experiment as CSV files under `Results CSV/` (not included
 ## Citation
 
 If this repository is useful for your research, please cite our paper:
+
+```bibtex
 @ARTICLE{11511693,
   author={Solagratia, Nathanael P. and Thejas, G.S.},
   journal={IEEE Access}, 
