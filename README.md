@@ -184,16 +184,18 @@ Results are saved per experiment as CSV files under `Results CSV/` (not included
 If this repository is useful for your research, please cite our paper:
 
 ```bibtex
+
 @ARTICLE{11511693,
-  author={Solagratia, Nathanael P. and Thejas, G.S.},
+  author={Solagratia, Nathanael P. and Thejas, G. S.},
   journal={IEEE Access}, 
   title={BERT and Local Vision Language Models in Hate Speech Detection on Small Multimodal Datasets}, 
   year={2026},
-  volume={},
+  volume={14},
   number={},
-  pages={1-1},
+  pages={70893-70911},
   keywords={Modeling;Bit error rate;Hate speech;Training;Accuracy;Machine learning;Labeling;LoRa;Social networking (online);Conferences;BERT;hate speech detection;low-resource learning;multimodal learning;offensive content detection;vision-language models},
   doi={10.1109/ACCESS.2026.3691270}}
+
 ```
 ---
 URL: https://ieeexplore.ieee.org/document/11511693
